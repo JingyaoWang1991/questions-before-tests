@@ -1,0 +1,6 @@
+src,strategy,var,group,reason
+CHARLS,E3,age,80+,not reported by source n/event threshold
+CHARLS,E3,educ,mid,not reported by source n/event threshold
+CHARLS,R,educ,high,not reported by source n/event threshold
+CHARLS,Q,educ,high,not reported by source n/event threshold
+CHARLS,E3,educ,high,not reported by source n/event threshold

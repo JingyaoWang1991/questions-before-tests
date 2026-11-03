@@ -1,0 +1,26 @@
+[workspace]
+name = "p01-prediction-paper"
+version = "0.1.0"
+channels = ["https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/"]
+platforms = ["win-64"]
+
+[dependencies]
+python = ">=3.12,<3.13"
+duckdb = ">=1.4,<1.5"
+pandas = ">=2.2,<3"
+numpy = ">=1.26,<3"
+pyarrow = ">=18,<24"
+scipy = ">=1.14,<2"
+statsmodels = ">=0.14,<1"
+scikit-learn = ">=1.5,<2"
+matplotlib = ">=3.9,<4"
+tabulate = ">=0.9,<1"
+
+[pypi-options]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+
+[pypi-dependencies]
+python-docx = ">=1.1,<2"
+
+[tasks]
+check = "python -c \"import sys, duckdb, pandas, numpy, scipy, statsmodels, sklearn, matplotlib; print(sys.version); print('duckdb', duckdb.__version__); print('pandas', pandas.__version__); print('numpy', numpy.__version__); print('scipy', scipy.__version__); print('statsmodels', statsmodels.__version__); print('sklearn', sklearn.__version__); print('matplotlib', matplotlib.__version__)\""

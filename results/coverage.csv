@@ -1,0 +1,65 @@
+src,var,label,n_obs,pct
+CHARLS,age,Age (years),4934,100.0
+CHARLS,male,Male sex,4934,100.0
+CHARLS,educ,Education (3 levels),4934,100.0
+CHARLS,htn,Hypertension,4922,99.8
+CHARLS,dia,Diabetes,4903,99.4
+CHARLS,hrt,Heart disease,4911,99.5
+CHARLS,str,Stroke,4923,99.8
+CHARLS,shlt,Self-rated health (1 best-5 worst),4931,99.9
+CHARLS,cesd,Depressive symptoms (scale),4658,94.4
+CHARLS,climb,Climbing stairs difficulty,4896,99.2
+CHARLS,walk,Walking difficulty,4651,94.3
+CHARLS,fall,Fall in past 2 years,0,0.0
+CHARLS,grip,Grip strength (kg),4120,83.5
+CHARLS,memory,Memory score (immediate+delayed),4013,81.3
+CHARLS,p_grip,Prior-wave grip strength,0,0.0
+CHARLS,p_memory,Prior-wave memory score,0,0.0
+ELSA,age,Age (years),5074,100.0
+ELSA,male,Male sex,5074,100.0
+ELSA,educ,Education (3 levels),4624,91.1
+ELSA,htn,Hypertension,5073,100.0
+ELSA,dia,Diabetes,5073,100.0
+ELSA,hrt,Heart disease,5073,100.0
+ELSA,str,Stroke,5073,100.0
+ELSA,shlt,Self-rated health (1 best-5 worst),4962,97.8
+ELSA,cesd,Depressive symptoms (scale),4937,97.3
+ELSA,climb,Climbing stairs difficulty,5074,100.0
+ELSA,walk,Walking difficulty,5074,100.0
+ELSA,fall,Fall in past 2 years,4960,97.8
+ELSA,grip,Grip strength (kg),4322,85.2
+ELSA,memory,Memory score (immediate+delayed),4938,97.3
+ELSA,p_grip,Prior-wave grip strength,3504,69.1
+ELSA,p_memory,Prior-wave memory score,3839,75.7
+HRS,age,Age (years),10119,100.0
+HRS,male,Male sex,10119,100.0
+HRS,educ,Education (3 levels),10118,100.0
+HRS,htn,Hypertension,10119,100.0
+HRS,dia,Diabetes,10119,100.0
+HRS,hrt,Heart disease,10119,100.0
+HRS,str,Stroke,10119,100.0
+HRS,shlt,Self-rated health (1 best-5 worst),10109,99.9
+HRS,cesd,Depressive symptoms (scale),9709,95.9
+HRS,climb,Climbing stairs difficulty,9282,91.7
+HRS,walk,Walking difficulty,10054,99.4
+HRS,fall,Fall in past 2 years,8208,81.1
+HRS,grip,Grip strength (kg),4335,42.8
+HRS,memory,Memory score (immediate+delayed),9711,96.0
+HRS,p_grip,Prior-wave grip strength,1714,16.9
+HRS,p_memory,Prior-wave memory score,9305,92.0
+SHARE,age,Age (years),27260,100.0
+SHARE,male,Male sex,27260,100.0
+SHARE,educ,Education (3 levels),27260,100.0
+SHARE,htn,Hypertension,27243,99.9
+SHARE,dia,Diabetes,27239,99.9
+SHARE,hrt,Heart disease,27241,99.9
+SHARE,str,Stroke,27237,99.9
+SHARE,shlt,Self-rated health (1 best-5 worst),27243,99.9
+SHARE,cesd,Depressive symptoms (scale),27260,100.0
+SHARE,climb,Climbing stairs difficulty,27259,100.0
+SHARE,walk,Walking difficulty,27259,100.0
+SHARE,fall,Fall in past 2 years,27254,100.0
+SHARE,grip,Grip strength (kg),25488,93.5
+SHARE,memory,Memory score (immediate+delayed),26724,98.0
+SHARE,p_grip,Prior-wave grip strength,0,0.0
+SHARE,p_memory,Prior-wave memory score,0,0.0

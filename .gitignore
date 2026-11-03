@@ -1,0 +1,25 @@
+# Data: third-party surveys, released under their own data-use agreements.
+# Never commit these.
+data/
+*.parquet
+*.dta
+*.sav
+*.rds
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pixi/
+.venv/
+
+# Outputs of local runs that are not the registered results
+figures/
+submission/
+*.docx
+*.png
+*.pdf
+
+# OS
+Thumbs.db
+.DS_Store

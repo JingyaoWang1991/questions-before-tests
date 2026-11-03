@@ -1,0 +1,58 @@
+number,paper_location,source_file,source_row,estimand,dataset_version
++0.0605,Abstract Results; Results 3.2,results/paired_delta_b1000.csv,block=POOLED; comparison=R->Q,"paired dAUC for ADL difficulty, background->questionnaire; N=17,985","B=1000 run, seed 20261025"
++0.0519 to +0.0705,Abstract Results; Results 3.2,results/paired_delta_b1000.csv,block=POOLED; comparison=R->Q,95% percentile bootstrap interval,B=1000
+0.669 to 0.730,Abstract Results; Results 3.2,results/paired_delta_b1000.csv,block=POOLED; comparison=R->Q,apparent AUC of R and of Q on the same participants,B=1000
+-0.0092,Abstract Results; Results 3.2,results/paired_delta_b1000.csv,block=POOLED; comparison=R->Q,paired dBrier (three-state),B=1000
++0.0532 (+0.0363 to +0.0719),Results 3.2 (China),results/paired_delta_b1000.csv,block=CHARLS; comparison=R->Q,"paired dAUC, China",B=1000
++0.0748 (+0.0552 to +0.0948),Results 3.2 (England),results/paired_delta_b1000.csv,block=ELSA; comparison=R->Q,"paired dAUC, England",B=1000
++0.0676 (+0.0543 to +0.0819),Results 3.2 (USA),results/paired_delta_b1000.csv,block=HRS; comparison=R->Q,"paired dAUC, USA",B=1000
++0.0020 (+0.0003 to +0.0044),Results 3.2 (grip); Abstract,results/paired_delta_b1000.csv,block=POOLED; comparison=Q->E1,paired dAUC vs preceding tier (grip); N=11887,B=1000
++0.0032 (+0.0012 to +0.0058),Results 3.2 (memory); Abstract,results/paired_delta_b1000.csv,block=POOLED; comparison=Q->E2,paired dAUC vs preceding tier (memory); N=17349,B=1000
++0.0038 (+0.0015 to +0.0078),Results 3.2 (both); Abstract,results/paired_delta_b1000.csv,block=POOLED; comparison=Q->E3,paired dAUC vs preceding tier (both); N=11383,B=1000
++0.0012 (-0.0001 to +0.0060),Results 3.2 (prior-wave); Abstract,results/paired_delta_b1000.csv,block=POOLED; comparison=E3->L,paired dAUC vs preceding tier (prior-wave); N=3519,B=1000
++0.0096 (+0.0004 to +0.0299),Abstract; Results 3.2,results/paired_delta_b1000.csv,block=HRS; comparison=E3->L,"US prior-wave subset; N=690, 73 disability events",B=1000
+0.698,Results 3.2 (China); Table S1,results/paper_tables/table5.csv,Analysis=S2_alive_only; Strategy=Q; column=China,AUC for ADL difficulty restricted to survivors,inherited from source project
+0.759,Results 3.2 (England); Table S1,results/paper_tables/table5.csv,Analysis=S2_alive_only; Strategy=Q; column=England,AUC for ADL difficulty restricted to survivors,inherited from source project
+0.763,Results 3.2 (USA); Table S1,results/paper_tables/table5.csv,Analysis=S2_alive_only; Strategy=Q; column=USA,AUC for ADL difficulty restricted to survivors,inherited from source project
++0.0376 (+0.0303 to +0.0453),Results 3.3 (pooled R+SRH),results/item_level_exploratory.csv,block=POOLED; model=R+SRH,"dAUC vs background; N=17,985","post hoc run, seed 20261103, B=1000"
++0.0359 (+0.0284 to +0.0442),Results 3.3 (pooled R+climb),results/item_level_exploratory.csv,block=POOLED; model=R+climb,"dAUC vs background; N=17,985","post hoc run, seed 20261103, B=1000"
++0.0231 (+0.0172 to +0.0301),Results 3.3 (pooled R+mood),results/item_level_exploratory.csv,block=POOLED; model=R+mood,"dAUC vs background; N=17,985","post hoc run, seed 20261103, B=1000"
++0.0553 (+0.0467 to +0.0643),Abstract; Results 3.3; Key Points (pooled R+SRH+climb),results/item_level_exploratory.csv,block=POOLED; model=R+SRH+climb,"dAUC vs background; N=17,985","post hoc run, seed 20261103, B=1000"
++0.0605 (+0.0513 to +0.0698),Results 3.3 (pooled Q),results/item_level_exploratory.csv,block=POOLED; model=Q,"dAUC vs background; N=17,985","post hoc run, seed 20261103, B=1000"
++0.0293 (+0.0175 to +0.0456),Results 3.3 (China mood),results/item_level_exploratory.csv,block=CHARLS; model=R+mood,"dAUC vs background, China",post hoc run
+82.4%,Results 3.3 (China),results/item_level_exploratory.csv,block=CHARLS; models R+SRH+climb and Q,ratio of separately estimated dAUC (no interval),derived from post hoc run
+93.5%,Results 3.3 (England),results/item_level_exploratory.csv,block=ELSA; models R+SRH+climb and Q,ratio of separately estimated dAUC (no interval),derived from post hoc run
+93.9%,Results 3.3 (USA),results/item_level_exploratory.csv,block=HRS; models R+SRH+climb and Q,ratio of separately estimated dAUC (no interval),derived from post hoc run
+0.0966,Results 3.3,results/item_level_exploratory.csv,"block=POOLED; models R+SRH, R+climb, R+mood",sum of the three single-domain dAUC,derived
+0.005 (residual),Abstract; Results 3.3; Discussion 4.3,results/item_level_exploratory.csv,block=POOLED; Q minus R+SRH+climb,difference of two separately estimated dAUC; no interval,derived
+AUC 0.683; slope 0.86; CITL +0.60; pred 10.0% vs obs 16.4%,Results 3.5; Table 2b; Figure 3,results/transport.csv,test=CHARLS; strategy=Q; update=none,"transported questionnaire model, no local updating","inherited (CIs from transport_q_ci.csv, 500 resamples)"
+AUC 0.728; slope 0.89; CITL +0.04; pred 10.2% vs obs 10.5%,Results 3.5; Table 2b; Figure 3,results/transport.csv,test=ELSA; strategy=Q; update=none,"transported questionnaire model, no local updating","inherited (CIs from transport_q_ci.csv, 500 resamples)"
+AUC 0.745; slope 1.10; CITL -0.41; pred 13.5% vs obs 9.6%,Results 3.5; Table 2b; Figure 3,results/transport.csv,test=HRS; strategy=Q; update=none,"transported questionnaire model, no local updating","inherited (CIs from transport_q_ci.csv, 500 resamples)"
+0.089,Results 3.5; Figure S5,results/transport_layers.csv,layer=L1  other wave,"mean |calibration slope - 1|, descriptive only",inherited
+0.072,Results 3.5; Figure S5,results/transport_layers.csv,"layer=L2  other country, same instrument","mean |calibration slope - 1|, descriptive only",inherited
+0.122,Results 3.5; Figure S5,results/transport_layers.csv,"layer=L3  other country, other survey","mean |calibration slope - 1|, descriptive only",inherited
+slopes 1.06/1.12/0.97; temporal CITL withdrawn (earlier estimator was not a calibration intercept); AUC change small,Results 3.5; Figure S5,results/transport_samewave.csv,"same-survey other-wave transport, Q model",temporal transport between two wave pairs two years apart,inherited
+N=4934; ADL difficulty=801; dead=169,Results 3.1; Table 1 (China),results/flow_prisma.csv,src=CHARLS,analysed cohort and 24-month state counts,inherited
+N=5074; ADL difficulty=543; dead=174,Results 3.1; Table 1 (England),results/flow_prisma.csv,src=ELSA,analysed cohort and 24-month state counts,inherited
+N=10119; ADL difficulty=1038; dead=537,Results 3.1; Table 1 (USA),results/flow_prisma.csv,src=HRS,analysed cohort and 24-month state counts,inherited
+N=27260; ADL difficulty=2338; dead=0,Results 3.1; Table 1 (Europe),results/flow_prisma.csv,src=SHARE,analysed cohort and 24-month state counts,inherited
+"20,127",Results 3.1,results/flow_prisma.csv,"sum of analysed over CHARLS, ELSA, HRS",three-state analytic cohort,inherited
+"17,985 (2,082 / 704)",Abstract; Results 3.2,results/paired_delta_b1000.csv,block=POOLED; comparison=R->Q,denominator of the primary paired comparison,B=1000
++0.028 / +0.049,Results 3.6,results/paper_tables/tableS5_bounds.csv,"Comparison=R to Q, rows China and England",dAUC when every unknown outcome is assigned to ADL difficulty,inherited
+0.749 to 0.766 (HRS Q),Results 3.6,results/paper_tables/table5.csv,Analysis=S5_hrs_adl6 vs S0_main; Strategy=Q; column=USA,AUC under the six-item ADL definition,inherited
+0.802 vs 0.739,Results 3.6,results/selection_diagnostic.csv,ELSA; grip-test completion strata,questionnaire AUC among participants who could not vs could complete grip,inherited
+90% / 89% / 93%,Limitation 5,results/flow_prisma.csv,"analysed / aged_60plus for CHARLS, ELSA, HRS",share of eligible ADL-independent participants analysed,derived
+62% - 69%,Methods 2.6; limitation 3,data/cohort_*.parquet vs data/cohort2_*.parquet,pid overlap by source,participant overlap between the two wave pairs,computed 2026-11-03
+17.4% versus 8.5%,limitation 5,results/weighted_risk.csv,"src=CHARLS and src=HRS, w_std_dis",weighted age-sex standardised two-year risk,weighted run
+18.2% versus 9.4%,limitation 5,results/standardised_risk.csv,"src=CHARLS and src=HRS, std_dis",unweighted age-sex standardised two-year risk,inherited
+"44% (38%, 45%, 46%)",Discussion 4.3,results/concentration.csv,model=Q; top_fraction=0.20; blocks POOLED/CHARLS/ELSA/HRS,share of new cases in the highest-risk fifth,concentration run
+43%,Discussion 4.3,results/concentration.csv,block=POOLED; model=TwoItems; top_fraction=0.20,"share of new cases in the highest-risk fifth, two-item model",concentration run
+25% versus 24%,Discussion 4.3,results/concentration.csv,block=POOLED; top_fraction=0.10; models Q and TwoItems,share of new cases in the highest-risk tenth,concentration run
+0.097,Results 3.3; Figure 2 legend and panel b,results item_level_exploratory.csv,"block=POOLED; models R+SRH, R+climb, R+mood",sum of the three single-domain ΔAUC,post hoc run
+0.802 versus 0.739; 0.748 versus 0.753,Results 3.6; Figure S6 caption,results/selection_diagnostic.csv,subsets grip measured / grip not measured,"questionnaire AUC by grip-test completion, England and USA",inherited
+"2,993",title block; SUBMISSION_CHECKLIST; COVER_LETTER_DRAFT,MANUSCRIPT_AA_REVISED.md,"Introduction through Conclusion, headings excluded",main-text word count,recomputed after every edit
++0.047 / +0.072 / +0.073 (weighted R→Q),Results 3.6,results/weighted_sensitivity.csv,comparison=R->Q; blocks CHARLS / ELSA / HRS,"survey-weighted paired ΔAUC, questionnaire tier, per survey","weighted run, seed 20261103, B=1000; pooled row withdrawn"
+−0.006 / −0.003 / +0.005,Results 3.6; Table S12 note; cover letter,results/weighted_sensitivity.csv,comparison=R->Q; w_dauc − dauc; blocks CHARLS / ELSA / HRS,"weighted-minus-unweighted change in the questionnaire increment, per survey",derived from the weighted run
++0.018 (0.001–0.046),Results 3.6; Table S12 note,results/weighted_sensitivity.csv,block=HRS; comparison=E3->L,"weighted prior-wave increment, US subset: N=690, 73 events",weighted run
++0.001 (−0.000 to 0.006),Results 3.2 and 3.6,results/paired_delta_b1000.csv,block=POOLED; comparison=E3->L,"unweighted pooled prior-wave increment (N=3,519)",B=1000
+not reported,Table S12 panel a (Pooled row),results/weighted_sensitivity.csv,block=POOLED (all weighted columns empty),pooled weighted estimate withdrawn: weight sums 1.19e8 / 4.27e3 / 3.76e7 across surveys,withdrawn 2026-11-03

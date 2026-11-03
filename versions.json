@@ -1,0 +1,33 @@
+{
+  "python": "3.12.15",
+  "platform": "Windows AMD64",
+  "pandas": "2.3.3",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "statsmodels": "0.15.0",
+  "scikit-learn": "1.9.1",
+  "matplotlib": "3.11.2",
+  "duckdb": "1.4.4",
+  "r": "not used (all analyses in Python)",
+  "project_environment": "pixi.toml + pixi.lock in this repository",
+  "survey_release": "unavailable — per-survey public release numbers were not recorded when the analysis files were built; obtain the current release from each distributor",
+  "database_versions": {
+    "CHARLS": {
+      "source_view": "persons_harm",
+      "rows_extracted": 25586
+    },
+    "ELSA": {
+      "source_view": "harmonized__h_elsa_g3",
+      "rows_extracted": 19802
+    },
+    "HRS": {
+      "source_view": "integrated__hrs",
+      "rows_extracted": 208674
+    },
+    "SHARE": {
+      "source_view": "working__share",
+      "rows_extracted": 327266
+    }
+  },
+  "note": "Environment used for scripts/46_calibration_and_updating.py and scripts/figures_r3.py. Bootstrap repetitions 500 for the transport intervals; paired split seeds 20261103-20261122 for local updating. Row counts are extracted records, not analysed participants."
+}

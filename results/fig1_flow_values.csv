@@ -1,0 +1,29 @@
+item,value
+records in the four surveys,218760
+excluded: not interviewed,105495
+interviewed at baseline,113265
+excluded: reported ADL difficulty,16202
+no difficulty in any of five ADLs,97063
+excluded: aged under 60,35000
+aged 60 or over,62063
+excluded: no 24-month state,14676
+24-month state ascertainable,47387
+three-state analysis,20127
+alive-only analysis,27260
+questionnaire complete-case comparison,17985
+China new ADL difficulty %,16.2
+China died %,3.4
+China ADL-difficulty fill,#3C6E9E
+China died fill,#213D57
+England new ADL difficulty %,10.7
+England died %,3.4
+England ADL-difficulty fill,#C0803F
+England died fill,#6A4623
+USA new ADL difficulty %,10.3
+USA died %,5.3
+USA ADL-difficulty fill,#4E8F7C
+USA died fill,#2B4F44
+Europe new ADL difficulty %,8.6
+Europe died %,
+Europe ADL-difficulty fill,#9E9E9E
+Europe died fill,

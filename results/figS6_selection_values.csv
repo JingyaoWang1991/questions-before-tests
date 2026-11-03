@@ -1,0 +1,7 @@
+src,subset,strategy,n,events,auc
+CHARLS,grip measured,Q,3976,649,0.6926005326916209
+CHARLS,grip not measured,Q,597,99,0.7013914242829905
+ELSA,grip measured,Q,3928,401,0.738573894156019
+ELSA,grip not measured,Q,579,74,0.8023548300776023
+HRS,grip measured,Q,3983,371,0.7536177700566844
+HRS,grip not measured,Q,4922,488,0.7480658954280263
