@@ -124,8 +124,3 @@ participant-level data is included.
 | `docs/SAP.md` | Statistical analysis plan, written before the analyses |
 | `docs/DAG.md` | Causal diagram for the covariate set |
 | `docs/NUMERICAL_TRACEABILITY.csv` | Each reported value: location, source file, row |
-
-## Citation
-
-Corresponding author: Jingyao Wang. Please contact the corresponding author for the derived
-analysis datasets, which are available on reasonable request.
